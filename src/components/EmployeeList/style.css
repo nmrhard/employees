@@ -1,0 +1,29 @@
+.employee-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.employee-letter,
+.employee-full-name {
+  font-weight: 600;
+}
+
+.employee-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.employee-item {
+  margin-bottom: 25px;
+}
+
+.employee-full-name-active {
+  color: blue;
+}

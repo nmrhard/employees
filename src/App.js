@@ -1,3 +1,5 @@
-const App = () => <h1>Employees</h1>;
+import { EmployeesListPage } from './pages/EmployeesListPage';
+
+const App = () => <EmployeesListPage />;
 
 export { App };
